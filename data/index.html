@@ -1,0 +1,28 @@
+<html >
+  <head>
+      <h2>Site Header</h2>
+
+    <title>Real time Chat Room </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="#">
+  </head>
+  <body>
+    <div class="container" >
+      <div class="chatbox" id="chatbox">
+
+      </div>
+      <br/>
+      <div id="name-group" class="form-group">
+        <textarea class="form-control msg_box" id="msg_box" 
+        placeholder="Type here and check the Title in Tab">
+      </textarea>
+      </div>
+    </div>
+  </body>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
+</html>
